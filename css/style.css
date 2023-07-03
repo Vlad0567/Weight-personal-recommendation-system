@@ -1,0 +1,631 @@
+html {
+    background-color: #ffffff;
+  }
+
+
+/*	Main  */
+.main {
+	border: 2px solid #00000000;
+    border-radius: 5px;
+	margin-top: 35px;
+	background: #fcfafa;
+	font-family: 'tahoma';
+    min-height: 100%;
+    height:1500px;
+    width: 100%;
+}
+
+.main p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left:20px;
+    margin-bottom: 10px;
+}
+
+/*   Верхняя панель             */
+.topnav {
+	border-radius: 4px;
+    background-color: #282828;
+    overflow: hidden;
+	width: 100%;
+	position: fixed; 
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+	height: 35px;
+    overflow: visible;
+}
+
+#cat {
+    position: absolute;
+    left: 15px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 1;
+    background-color: #609df80e;
+    font-size: 17px;
+}
+
+#cat1 {
+    top:0px;
+    height: auto;
+    width: 140px;
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    background-color: #282828;
+    font-size: 17px; 
+    border-radius: 0px;
+    position: relative;
+}
+
+#cat1:hover,
+#cat:hover {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+
+#category {
+    position: fixed;
+    left: 15px;
+    top: 40px;
+    height: auto;
+    width: 140px;
+    background: #fafafa;
+
+    border: 3px solid rgb(88, 88, 88);
+    border-radius: 3px;
+    display: flex;
+
+}
+
+.topnav1 {
+    float:right;
+    display: flex;
+    padding: 1px;
+}
+
+.topnav2 {
+    margin-right: 10px;
+}
+
+.topnav1 input {
+	color: #000000;
+	border-radius: 5px;
+	text-align: left;
+    width:500px;
+    height: 31px;
+    font-size: 17px;
+}
+
+.topnav1 button {
+    float: left;
+    border-radius: 5px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 4px 10px;
+    text-decoration: none;
+    background-color: #609df80e;
+    font-size: 17px;
+}
+
+#busket:hover,
+.topnav1 button:hover {
+    background-color: #f3f8f6;
+    color: black;
+}
+
+#registrarion {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 600px;
+    transform: translate(-50%, -50%);
+    background: #fafafa;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#authorization {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 600px;
+    transform: translate(-50%, -50%);
+    background: #fafafa;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #cc1c16;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #ff0800;
+    cursor: pointer;
+}
+
+.registration p {
+    font-size: 22px;
+    margin-top:2px;
+    margin-left: 5px;
+    font-weight: normal;
+    color:#000000;
+    font-weight: bold;
+    font-family: 'calibri';
+}
+
+.registration p2 {
+    font-size: 19px;
+    margin-left:5px;
+    display: flex;
+    color:#000000
+}
+
+.registration input[type=text] {
+    float: left;
+	color: #000000;
+	text-align: left;
+    padding: 10px 40px;
+    border: 1px solid #000000;
+    font-size: 17px;
+}
+
+#reg{
+    float: left;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+    padding: 4px 10px;
+    margin-top: 10px;
+    background-color: #000000;
+    font-size: 17px;
+}
+#reg:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* блок товаров     */
+.listproduct {
+	border: 2px solid #3e1fd80a;
+    border-radius: 5px;
+	background: #fcfafa;
+    height: calc(auto + 300px);
+    width:99%;
+    display: block;
+ 
+}
+
+
+
+.blockproduct {
+	border: 2px solid #3e1fd844;
+    border-radius: 5px;
+
+	background: #fcfafa;
+    height: 255px;
+    width:99%;
+    float:right;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.listproduct a,
+.blockproduct a{
+    text-decoration: none;
+}
+
+.listproduct a:hover,
+.blockproduct a:hover{
+	opacity: 0.75;
+}
+
+
+.otstup{
+margin-left:15px;
+}
+
+.listproduct1 {
+    border: 2px solid #bbbbbb31;
+    border-radius: 5px;
+	margin: 5px 0px 5px 25px;
+	background: #fcfafa;
+    height: 240px;
+    width:200px;
+    position: relative;
+    display: inline-table;
+}
+
+.blockproduct1 {
+    border: 2px solid #bbbbbb31;
+    border-radius: 5px;
+	margin: 5px 0px 5px 25px;
+	background: #fcfafa;
+    height: 240px;
+    width:200px;
+    position: relative;
+
+}
+
+.listproduct1 p,
+.blockproduct1 p{
+
+    font-size: 17px;
+    margin-top:2px;
+    margin-left: 5px;
+    font-weight: normal;
+    color:#000000;
+
+}
+
+.listproduct1 p1,
+.blockproduct1 p1{
+
+    font-size: 17px;
+    margin-left:5px;
+    display: flex;
+    position: absolute;
+    bottom: 3;
+    font-weight: bold;
+    color:#ff5100
+}
+
+.blockproduct p3 {
+
+    font-size: 17px;
+    margin-left:5px;
+    display: flex;
+    position: absolute;
+    bottom: 3;
+    right: 5;
+    font-weight: bold;
+    color:#ff0000
+}
+
+
+.listproduct1 p2,
+.blockproduct1 p2{
+
+    font-size: 19px;
+    margin-left:5px;
+    display: flex;
+    color:#000000
+
+}
+
+/*  Страница товара       */
+.imagesquare {
+    height: 600px;
+    width:750px;
+    top: 100;
+    left: 100;
+    border: 2px solid #6363631a;
+    border-radius: 5px;
+    display: flex;
+    position: absolute;
+    margin-top: 30px;   
+}
+
+#busket {
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+    padding: 4px 10px;
+    margin-top: 10px;
+    background-color: #282828;
+    font-size: 17px; 
+    position: absolute;
+    top: 350px;
+    right: 520;
+}
+
+#cat2 {
+    border-radius: 5px;
+    padding: 4px 10px;
+    position: absolute;
+    top: 360px;
+    right: 420;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 1;
+    background-color: #282828;
+    font-size: 17px;
+}
+
+#cat21 {
+
+    height: auto;
+    width: 100px;
+
+    color: #ffffff;
+    text-align: center;
+    background-color: #282828;
+    font-size: 17px; 
+    border-radius: 0px;
+    position: relative;
+}
+
+#cat21:hover,
+#cat2:hover {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+
+.category2 {
+    position: fixed;
+    top: 360px;
+    right: 420;
+    height: 120px;
+    width: 100px;
+    background: #fafafa;
+    border: 3px solid rgb(88, 88, 88);
+    border-radius: 3px;
+    display: flex;
+}
+
+
+
+
+
+.imagesquare img{
+    height: 600px;
+    width:750px;
+}
+
+.infosquare {
+    height: 500px;
+    width:500px;
+    top: 140;
+    right: 200;
+    display: flex;
+    position: absolute;   
+}
+
+#heading {
+    top: 60;
+    left: 100;
+    position: absolute;   
+	font-family: 'tahoma';
+    font-size: 22px;
+}
+
+#heading2 {
+    top: 80;
+    right: 508;
+    position: absolute;   
+	font-family: 'tahoma';
+    font-size: 22px;
+}
+
+#parametrs {
+    height: 180px;
+    width:220px;
+    right: 20;
+    display: flex;
+    position: absolute;   
+}
+
+/* infobar */
+
+.infobar {
+    border: 2px solid #1de979;
+    border-radius: 5px;   
+    height:auto;
+    width:auto;
+    bottom: 20;
+    right: 20;
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    background-color: #ffffff;
+}
+
+#infotable {
+    font-size: 25px;
+    padding-top: 0px;
+    padding-left: 0px;
+
+    height: 8px;
+    table-layout: fixed;
+}
+
+#infotable td, #infotable th {
+    border: 1px solid #000000;
+    padding: 1px;
+    height: 1px;
+    width: auto;
+}
+
+#table {
+    padding-top: 100px;
+    padding-left: 100px;
+    font-size: 22px;
+    border-color:#000000;
+}
+
+#table td, #table th {
+    border: 1px solid #000000;
+    padding: 5px;
+  }
+
+.underproduct {
+    height: calc(auto + 300px);
+    min-height:300px;
+    width:99%;
+    top: 775;
+
+    border: 2px solid #8585855d;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+
+}
+
+
+/* Новости              */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.newspage p{
+    font-weight:normal;
+    font-size: 20px;
+
+}
+
+.newspage img {
+    border-radius: 30px;
+    top: 40;
+    left: 400px;
+    position: absolute;  
+    height: 700px;
+    width: 1200px; 
+}
+
+.newspage1 {
+    border: 2px solid #5c5c5c7a;
+    border-radius: 5px;
+    top: 750;
+    height: auto;
+    width: auto;
+    position: absolute;   
+}
+
+.catbutton img {
+    width: 430px;
+    height:240px;
+    border: 2px solid #bbbbbb31;
+    border-radius: 5px;
+    margin-left: -8px;
+    position: relative;
+}
+
+#regvam:hover {
+    opacity: 0.75;
+    cursor: pointer;
+
+}
+
+.text-block {
+    margin-left: -6px;
+    margin-top: -56;
+    z-index: 1;
+    position: absolute;
+    width: 428px;
+    height: 55px;
+    
+    border: 2px solid #bbbbbb31;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.806);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#regvam {
+    margin-left: 27px;
+    width: 430px;
+    height:240px;
+    background-color: #ff000000;
+    border-color: #00000000;
+
+}
