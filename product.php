@@ -72,7 +72,7 @@
                 url:'addDur.php',
                 method:'POST',
                 data:{
-                    duration:endtime - starttime,
+                    duration:duration,
                 }
             });
         }
